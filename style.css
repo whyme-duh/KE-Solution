@@ -11,12 +11,20 @@
 
 nav{
     display: flex;
+    overflow: hidden;
     justify-content: space-evenly;
     background-color: antiquewhite;
     align-items: center;
     padding: 1em;
 }
+.navbar-toggler{
+    display: none;
+}
+.nav-options{
+    display: flex;
+    justify-content: space-between;
 
+}
 .logo{
     width:200px;
     height: 30px;
@@ -55,8 +63,8 @@ a{
     font-family: var(--paragraph-font);
 }
 
-.intro-image{
-    width: 40%;
+.intro-image{   
+    width: 30%;
 }
 .start-here-btn{
     margin-top: 1em;
@@ -124,7 +132,11 @@ a{
 }
 .manage-business-content, .manage-business img{
     margin-top: 5em;
+    margin-bottom: 5em;
 }
 .grow-business-content, .grow-business img{
     margin-top: 5em;
+    margin-bottom: 5em;
+
 }
+
